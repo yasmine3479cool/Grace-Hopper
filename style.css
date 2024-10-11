@@ -1,0 +1,126 @@
+body {
+  background-color: #111216
+}
+
+html {
+  scroll-behavior: smooth;
+  color: white
+}
+.entete {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p, h2, h3, li, a, h4 {
+  font-family: "Segoe UI";
+}
+
+h4 {
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0;
+  text-decoration: underline;
+  font-size: 22px;
+}
+
+h2 {
+  border-radius: 50px;
+  background: linear-gradient(45deg, #00bcd4, #2196f3);
+  text-decoration: underline;
+  text-align: center;
+}
+
+h1 {
+  text-shadow: 0px 0px 30px skyblue;
+  font-family: "Georgia";
+  font-size: 50px;
+  color: transparent;
+  background: linear-gradient(90deg, blue, turquoise, silver);
+  background-clip: text;
+  
+}
+
+.lien {
+  color: #00bcd4;
+  display: inline-block;
+  padding: 5px 10px;
+  margin: 5px;
+  border: 2px solid;
+  border-radius: 7px;
+  font-weight : bold
+}
+
+.ancreDiv {
+  text-align: center
+}
+#ancre {
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  background: linear-gradient(45deg, #00bcd4, #2196f3);
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.25s;
+}
+
+#ancre:hover{
+  transform: scale(0.95)
+}
+
+.sommaire{
+  text-align: center
+  
+}
+
+.container {
+  text-align: center;
+}
+
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+img.entete{
+  border: 5px solid whitesmoke;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+strong {
+  border-radius: 4px;
+  background: linear-gradient(45deg, #00bcd4, #2196f3)
+  
+}
+
+
+.list {
+  font-weight:bold;
+  display: inline-block;
+  text-align: left;
+  margin-top: 0;
+}
+.list a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  display: block;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.list a:hover {
+  color: #2196f3;
+}
+
+
+
+
